@@ -83,6 +83,9 @@ body {
 }
 
 .user-image {
+  border-radius: 50%;
+}
+.user-p {
   margin: 0 0 32px;
   text-align: center;
 }

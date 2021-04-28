@@ -4,13 +4,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=latin-ext" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style2.css">
-    <title>Моя штука</title>
+    <title>Моя штука – Гобла</title>
   </head>
 
   <body>
     <header class="page-header">
       <div class="container">
-      <p><i>По всем вопросам не пишите:</i><br><a href="mailto:gugimor95@mail.ru">gugimor95@mail.ru</a><i> (почта для спама)</i></p>
+      <p><i>По всем вопросам не пишите:</i><br><a class="header-email" href="mailto:gugimor95@mail.ru">gugimor95@mail.ru</a><i> (почта для спама)</i></p>
       </div>
     </header>
 
@@ -24,6 +24,9 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте не будем знакомиться</h2>
+      <figure class="user-p">
+        <img class="user-image" src="img/goblin_PNG25.png" width="500px" alt="Фотографию гоблина украли">
+      </figure>
       <h3>"что то о себе"</h3>
       <p>"Текст что то о себе"</p>
       <h3>Могу стрелять и могу не стрелять</h3>
@@ -37,9 +40,17 @@
 
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
+      <figure class="project-image">
+        <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+      </figure>
 
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
+      <a class="button" href="source/project2/index.html">Открыть страницу</a>
+      <figure class="project-image">
+        <img src="img/IMG_20210406_114323.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+      </figure>
       </div>
     </section>
 

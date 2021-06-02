@@ -4,8 +4,8 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
+  color: #f2f2f2;
+  background-color: #080208;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -30,7 +30,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -132,15 +132,15 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #fea18d;
   border-radius: 6px;
 }
 
@@ -174,19 +174,19 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #712073;;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: #260c26;
   color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;

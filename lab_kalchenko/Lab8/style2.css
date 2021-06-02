@@ -5,13 +5,14 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
+  background-color: #080208;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .container {
+  color: #0f9e3f;
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
@@ -103,6 +104,7 @@ body {
 }
 
 .skills {
+  color: #0f9e3f;
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
@@ -111,6 +113,7 @@ body {
 .skills-list {
   margin: 0;
   padding: 0;
+  color: #0f9e3f;
 }
 
 .skills-list dt {
@@ -119,12 +122,16 @@ body {
   background-position: left;
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
+.skill_zzz {
+  background-image: url("img/сон 1.png");
 }
 
-.skill-css {
-  background-image: url("img/icon-css.svg");
+.skill_--- {
+  background-image: url("img/мишень 1.png");
+}
+
+.skill_rab {
+  background-image: url("img/работа 1.png");
 }
 
 .level {

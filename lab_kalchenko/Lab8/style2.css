@@ -18,7 +18,7 @@ img{
 
 .container {
   color: #0f9e3f;
-  max-width: 100%;
+  max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -30,7 +30,7 @@ img{
 
 .page-header .container,
 .page-footer .container {
-  max-width: 100%;
+  max-width: 1408px;
   text-align: right;
 }
 
@@ -57,7 +57,7 @@ img{
 }
 
 .hero-image .container {
-  max-width: 100%;
+  max-width: 1408px;
   text-align: center;
 }
 
@@ -122,21 +122,21 @@ img{
 }
 
 .skills-list dt {
-  padding-left: 32px;
+  padding-left: 70px;
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .skill_zzz {
-  background-image: url("img/сон 1.png");
+  background-image: url("img/сон-60.png");
 }
 
 .skill_--- {
-  background-image: url("img/мишень 1.png");
+  background-image: url("img/мишень-60.png");
 }
 
 .skill_rab {
-  background-image: url("img/работа 1.png");
+  background-image: url("img/работа-60.png");
 }
 
 .level {
@@ -172,6 +172,7 @@ img{
 
 .project-image {
   margin: 0 0 24px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -212,4 +213,35 @@ img{
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+@media screen and (max-width: 768px) {
+  .heading{
+    font-size: 60px;
+  }
+  .subheading {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .heading, .subheading{
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .heading, .subheading{
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
 }

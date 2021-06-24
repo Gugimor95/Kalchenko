@@ -1,23 +1,17 @@
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
+  color: #f2f2f2;
   background-color: #080208;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
-  color: #0f9e3f;
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
@@ -36,7 +30,7 @@ img{
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -44,16 +38,16 @@ img{
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("img/icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("img/icon-phone.svg");
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 480px;
 }
 
 .hero-image .container {
@@ -62,11 +56,9 @@ img{
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  margin: 0 0 24px;
+  font-size: 80px;
   line-height: 96px;
-  font-weight: 400;
 }
 
 .hero-image p {
@@ -81,17 +73,12 @@ img{
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 400;
+  font-size: 56px;
+  line-height: 80px;
   text-align: center;
 }
 
 .user-image {
-  border-radius: 50%;
-}
-.user-p {
   margin: 0 0 32px;
   text-align: center;
 }
@@ -108,35 +95,23 @@ img{
   margin: 0 0 32px;
 }
 
-.skills {
-  color: #0f9e3f;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
 .skills-list {
   margin: 0;
   padding: 0;
-  color: #0f9e3f;
 }
 
 .skills-list dt {
-  padding-left: 70px;
+  padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-.skill_zzz {
-  background-image: url("img/сон-60.png");
+.skill-html {
+  background-image: url("img/icon-html.svg");
 }
 
-.skill_--- {
-  background-image: url("img/мишень-60.png");
-}
-
-.skill_rab {
-  background-image: url("img/работа-60.png");
+.skill-css {
+  background-image: url("img/icon-css.svg");
 }
 
 .level {
@@ -144,15 +119,15 @@ img{
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #b625d3;
+  background-color: #fea18d;
   border-radius: 6px;
 }
 
@@ -172,7 +147,6 @@ img{
 
 .project-image {
   margin: 0 0 24px;
-  max-width: 100%;
   text-align: center;
 }
 
@@ -187,19 +161,18 @@ img{
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #e628d6;
+  background-color: #712073;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  background-color: #260c26;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -207,41 +180,10 @@ img{
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("img/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
-}
-
-@media screen and (max-width: 768px) {
-  .heading{
-    font-size: 60px;
-  }
-  .subheading {
-    font-size: 50px;
-  }
-
-  h3 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .heading, .subheading{
-    font-size: 40px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .heading, .subheading{
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 15px;
-  }
+  background-image: url("img/icon-phone.svg");
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "css": "skill_zzz",
+        "skillName": "Бодрость",
+        "skillLevel": 10
+    },
+    {
+        "css": "skill_---",
+        "skillName": "Работоспособность",
+        "skillLevel": 70
+    },
+    {
+        "css": "skill_rab",
+        "skillName": "Меткость",
+        "skillLevel": 80
+    }
+]

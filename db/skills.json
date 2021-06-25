@@ -5,12 +5,12 @@
         "skillLevel": 10
     },
     {
-        "css": "skill_---",
+        "css": "skill_rab",
         "skillName": "Работоспособность",
         "skillLevel": 70
     },
     {
-        "css": "skill_rab",
+        "css": "skill_---",
         "skillName": "Меткость",
         "skillLevel": 80
     }

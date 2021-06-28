@@ -42,16 +42,6 @@ img{
   background-position: left;
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
-}
-
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
-}
-
 .hero-image {
   margin-bottom: 620px;
 }
@@ -112,13 +102,6 @@ img{
   color: #0f9e3f;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
-}
-
-.skills-list {
-  max-width: 768px;
-  margin: 0 auto;
-  color: #0f9e3f;
 }
 
 .skills-list dt {
@@ -206,16 +189,6 @@ img{
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
 }
 
 @media screen and (max-width: 768px) {
